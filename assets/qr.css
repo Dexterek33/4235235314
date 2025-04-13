@@ -96,6 +96,47 @@ body {
     width: 100%;
 }
 
+.bottom-logos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    width: 100%;
+    margin: 20px 0 10px;
+    box-sizing: border-box;
+}
+
+.left_logo, .right_logo {
+    height: 50px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logos_text {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0 0;
+    text-align: left;
+}
+
+.error_button.close {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0045a5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
 .error_button {
     background: #004b9b;
     color: white;
